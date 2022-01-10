@@ -13,3 +13,5 @@ if n < 100:
     b = n + a
 print(b)
 '''
+if input() != '':
+    print("OK")
