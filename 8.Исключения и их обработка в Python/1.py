@@ -33,7 +33,7 @@ except(ValueError, ZeroDivisionError):
     print("Нельзя вводить строки или делить на ноль")'''
     #Ошибки finally
     
-try:
+'''try:
     n= input('Vvedite 4islo: ')
     n= int(n)
 except ValueError:
@@ -41,4 +41,15 @@ except ValueError:
 else: 
     print ('Vse OK, vashe shislo', n)
 finally:
-    print("end programs") 
+    print("end programs") '''
+    
+a_str = input("Введите первое значние: ")
+b_str = input("Введите второе значние: ")
+
+
+try:
+    a_num = float(a_str)
+    b_num = float(b_str)
+    print("Результат: " , a_num + b_num)
+except ValueError:
+    print("Результат: " , a_str + b_str)
