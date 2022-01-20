@@ -34,12 +34,11 @@ print("Длинна массива: ",len(arr_a))
 
 
 arr_b=[66,77,88]
-
 arr_a.extend(arr_b)
+arr_c = arr_a +arr_b
+for i in range(len(arr_c)):
+    print(arr_c[i])
 
-for i in range(len(arr_a)):
-    print(arr_a[i])
 
-
-print("Длинна массива: ",len(arr_a))
+print("Длинна массива: ",len(arr_c))
 
