@@ -25,14 +25,21 @@ print(s1)'''
 #Massiv
 
 
-arr_a = [23,32,54,65,66,"hi","World"]
-print (arr_a)
+arr_a = [23,32,54,5555,"hi","World"]
+for i in range(len(arr_a)):
+    print(arr_a[i])
 
 
+print("Длинна массива: ",len(arr_a))
 
 
+arr_b=[66,77,88]
+
+arr_a.extend(arr_b)
+
+for i in range(len(arr_a)):
+    print(arr_a[i])
 
 
-
-
+print("Длинна массива: ",len(arr_a))
 
