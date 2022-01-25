@@ -7,7 +7,7 @@ print('Элемент 0 - ', shoplist[0])
 print('Элемент 1 - ', shoplist[1])
 print('Элемент 2 - ', shoplist[2])
 print('Элемент 3 - ', shoplist[3])
-print('Элемент -1 - ', shoplist[-1])
+print('Элемент -1 - ', shoplist[-1]) # минус показывает на последний элемент в кортеже\списке
 print('Элемент -2 - ', shoplist[-2])
 print('Символ 0 - ', name[0])
 
