@@ -5,6 +5,12 @@ from tkinter import messagebox
 def clicked():  
     messagebox.showinfo('Заголовок', 'Текст')  
   
+from tkinter import messagebox
+
+
+res = messagebox.askokcancel('123123', 'Тgfgfgfекст')
+
+  
   
 window = Tk()  
 window.title("Добро пожаловать в приложение PythonRu")  
