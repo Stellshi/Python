@@ -8,12 +8,22 @@
 # '+' открыть для чтения и записи "r+", 'w+', 'a+'
 
 
-r = open('text.txt')
+r = open('Launcher.exe','rb')
 
+y =  open ('Копия LC.txt', 'wb')
 
-for i in r:
-    if '21.py' in i:
-        print (i)
+while True:
+    var = r.read(1048576) # файл поделен на 1мб
+
+    print(var.__sizeof__())
+
+    if var.__sizeof__() == 33:  #прерывание цикла
+        break
     
-r.close
+    y.write(var)
 
+
+print('Контроллер') 
+   
+r.close
+y.close
