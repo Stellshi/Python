@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d96ea2-3efc-4038-8fff-1ca138858654" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsite/stellshi/women/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djsite/stellshi/women/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsite/stellshi/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djsite/stellshi/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
