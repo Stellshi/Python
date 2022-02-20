@@ -1,7 +1,7 @@
 from django import http
 from django.http import HttpRequest, HttpResponse, HttpResponseNotFound,Http404
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import  render,redirect
 
 
 # Create your views here.
@@ -19,7 +19,9 @@ def archive(request, year):
 
 def archive(requedt,year):
     if int(year) > 2020:
-        raise Http404()
+        # raise Http404()\
+        return redirect('home',permanent=True)
+            
 
 
 

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d96ea2-3efc-4038-8fff-1ca138858654" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsite/stellshi/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djsite/stellshi/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsite/stellshi/stellshi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djsite/stellshi/stellshi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsite/stellshi/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djsite/stellshi/women/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djsite/stellshi/women/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djsite/stellshi/women/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djsite/stellshi/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djsite/stellshi/women/views.py" afterDir="false" />
     </list>
@@ -12,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25IAgREmMe1WJKc23T2ehtheGXT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
